@@ -1,0 +1,19 @@
+# Copy this file to config.properties and adjust settings as needed.
+
+data.dir=data
+output.dir=output
+browser.profile.dir=ChromeProfile
+
+# Leave blank to search common Windows Chrome installation folders.
+chrome.path=
+chrome.debug.port=9222
+chrome.window.position=1230,2
+chrome.window.size=1330,1390
+
+# true = reuse output/DoctrineObjects.csv instead of scraping alliance fittings
+use.saved.doctrine.file=false
+
+# true requires valid Janice saved URLs below
+use.saved.janice.urls=false
+janice.hull.url=
+janice.modules.url=
