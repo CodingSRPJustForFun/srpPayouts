@@ -1,0 +1,25 @@
+HANDOVER CHECKLIST
+==================
+
+Before the recipient uses this for real SRP payouts:
+
+[ ] Before running, review src/main/java, pom.xml, and both batch files. Decide
+    for yourself whether you trust the code and its declared dependencies.
+[ ] Check that you are happy that the application does not collect or store
+    website passwords. It does read page data after you sign in interactively
+    through Chrome, but does not try to read or extract cookie contents. Chrome retains
+    session cookies in ChromeProfile, so you only need to sign in again if the
+    session expires.
+[ ] Install Eclipse Temurin 25 from Adoptium and Apache Maven. Set JAVA_HOME
+    to the Temurin installation folder and confirm Maven is available on PATH.
+[ ] Confirm the recipient has their own alliance fittings and Discord access.
+[ ] Supply a trusted invTypes.csv file from Fuzzworks in data\invTypes.csv.
+[ ] On a copy of the working data, build with Build SRP Payouts.bat.
+[ ] Launch Run SRP Payouts.bat and sign in to the required websites in Chrome.
+    Keep the message box on screen until you have signed in. You only need to
+    sign in once, or again if the cookies expire.
+[ ] Do not upload your ChromeProfile folder to source control.
+[ ] Complete one full test run and inspect output\FitObjects.csv.
+[ ] Compare ship count, payout values, and warnings with a known-good output.
+[ ] Confirm data\FitObjects - Copy.csv is populated as expected on the next run.
+[ ] Confirm logs\latest-run.log is readable and reports failures clearly.
