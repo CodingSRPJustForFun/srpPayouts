@@ -7,7 +7,7 @@ A Java application that collects ship fitting and market information and writes 
 - Java 25 JDK
 - Apache Maven
 - Google Chrome
-- `data/invTypes.csv` (the application input file)
+- `data/invTypes.csv` (the application input file; download it from the [Fuzzwork EVE data CSV directory](https://www.fuzzwork.co.uk/dump/latest/csv/invTypes.csv))
 
 ## Configure
 
@@ -16,7 +16,7 @@ Copy `config.properties.example` to `config.properties`. Adjust the Chrome path 
 ## Build and run on Windows
 
 1. Set `JAVA_HOME` to your Java 25 JDK installation and ensure Maven is available on `PATH`.
-2. Put `invTypes.csv` in the `data` directory.
+2. Download `invTypes.csv` from the [Fuzzwork EVE data CSV directory](https://www.fuzzwork.co.uk/dump/latest/csv/invTypes.csv) and put it in the `data` directory.
 3. Run `Build srphelper.bat`.
 4. Run `Run srphelper.bat`.
 
