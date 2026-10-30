@@ -4,7 +4,7 @@ A Java application that collects ship fitting and market information and writes 
 
 ## Requirements
 
-- Java 25 JDK
+- Eclipse Temurin 25 JDK (from Adoptium)
 - Apache Maven
 - Google Chrome
 - `data/invTypes.csv` (the application input file; download it from the [Fuzzwork EVE data CSV directory](https://www.fuzzwork.co.uk/dump/latest/csv/invTypes.csv))
